@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- グラデーション下地 -->
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="270"
+                android:endColor="#0000cd"
+                android:startColor="#6495ed"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- グラデーション陰影 -->
+    <item android:top="20dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="#40000000" />
+        </shape>
+    </item>
+
+</layer-list>

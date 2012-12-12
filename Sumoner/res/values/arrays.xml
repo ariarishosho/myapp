@@ -1,0 +1,3587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- モンスター情報 -->
+    <string-array name="monsterRoot">
+        <item>@array/No001</item>
+        <item>@array/No002</item>
+        <item>@array/No003</item>
+        <item>@array/No004</item>
+        <item>@array/No005</item>
+        <item>@array/No006</item>
+        <item>@array/No007</item>
+        <item>@array/No008</item>
+        <item>@array/No009</item>
+        <item>@array/No010</item>
+        <item>@array/No011</item>
+        <item>@array/No012</item>
+        <item>@array/No013</item>
+        <item>@array/No014</item>
+        <item>@array/No015</item>
+        <item>@array/No016</item>
+        <item>@array/No017</item>
+        <item>@array/No018</item>
+        <item>@array/No019</item>
+        <item>@array/No020</item>
+        <item>@array/No021</item>
+        <item>@array/No022</item>
+        <item>@array/No023</item>
+        <item>@array/No024</item>
+        <item>@array/No025</item>
+        <item>@array/No026</item>
+        <item>@array/No027</item>
+        <item>@array/No028</item>
+        <item>@array/No029</item>
+        <item>@array/No030</item>
+        <item>@array/No031</item>
+        <item>@array/No032</item>
+        <item>@array/No033</item>
+        <item>@array/No034</item>
+        <item>@array/No035</item>
+        <item>@array/No036</item>
+        <item>@array/No037</item>
+        <item>@array/No038</item>
+        <item>@array/No039</item>
+        <item>@array/No040</item>
+        <item>@array/No041</item>
+        <item>@array/No042</item>
+        <item>@array/No043</item>
+        <item>@array/No044</item>
+        <item>@array/No045</item>
+        <item>@array/No046</item>
+        <item>@array/No047</item>
+        <item>@array/No048</item>
+        <item>@array/No049</item>
+        <item>@array/No050</item>
+        <item>@array/No051</item>
+        <item>@array/No052</item>
+        <item>@array/No053</item>
+        <item>@array/No054</item>
+        <item>@array/No055</item>
+        <item>@array/No056</item>
+        <item>@array/No057</item>
+        <item>@array/No058</item>
+        <item>@array/No059</item>
+        <item>@array/No060</item>
+        <item>@array/No061</item>
+        <item>@array/No062</item>
+        <item>@array/No063</item>
+        <item>@array/No064</item>
+        <item>@array/No065</item>
+        <item>@array/No066</item>
+        <item>@array/No067</item>
+        <item>@array/No068</item>
+        <item>@array/No069</item>
+        <item>@array/No070</item>
+        <item>@array/No071</item>
+        <item>@array/No072</item>
+        <item>@array/No073</item>
+        <item>@array/No074</item>
+        <item>@array/No075</item>
+        <item>@array/No076</item>
+        <item>@array/No077</item>
+        <item>@array/No078</item>
+        <item>@array/No079</item>
+        <item>@array/No080</item>
+        <item>@array/No081</item>
+        <item>@array/No082</item>
+        <item>@array/No083</item>
+        <item>@array/No084</item>
+        <item>@array/No085</item>
+        <item>@array/No086</item>
+        <item>@array/No087</item>
+        <item>@array/No088</item>
+        <item>@array/No089</item>
+        <item>@array/No090</item>
+        <item>@array/No091</item>
+        <item>@array/No092</item>
+        <item>@array/No093</item>
+        <item>@array/No094</item>
+        <item>@array/No095</item>
+        <item>@array/No096</item>
+        <item>@array/No097</item>
+        <item>@array/No098</item>
+        <item>@array/No099</item>
+        <item>@array/No100</item>
+        <item>@array/No101</item>
+        <item>@array/No102</item>
+        <item>@array/No103</item>
+        <item>@array/No104</item>
+        <item>@array/No105</item>
+        <item>@array/No106</item>
+        <item>@array/No107</item>
+        <item>@array/No108</item>
+        <item>@array/No109</item>
+        <item>@array/No110</item>
+        <item>@array/No111</item>
+        <item>@array/No112</item>
+        <item>@array/No113</item>
+        <item>@array/No114</item>
+        <item>@array/No115</item>
+        <item>@array/No116</item>
+        <item>@array/No117</item>
+        <item>@array/No118</item>
+        <item>@array/No119</item>
+        <item>@array/No120</item>
+        <item>@array/No121</item>
+        <item>@array/No122</item>
+        <item>@array/No123</item>
+        <item>@array/No124</item>
+        <item>@array/No125</item>
+        <item>@array/No126</item>
+        <item>@array/No127</item>
+        <item>@array/No128</item>
+        <item>@array/No129</item>
+    </string-array>
+    <string-array name="No001">
+        <item>No 001</item> <!-- No -->
+        <item>@drawable/dragon</item> <!-- 画像 -->
+        <item>@string/no001_name</item> <!-- 名前 -->
+        <item>30</item> <!-- HP -->
+        <item>3</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability11_name</item> <!-- アビリティ1 -->
+        <item></item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.02</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No002">
+        <item>No 002</item> <!-- No -->
+        <item>@drawable/kama_tachi</item> <!-- 画像 -->
+        <item>@string/no002_name</item> <!-- 名前 -->
+        <item>60</item> <!-- HP -->
+        <item>3</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item></item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.0005</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv2</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No003">
+        <item>No 003</item> <!-- No -->
+        <item>@drawable/jack_o_lantern</item> <!-- 画像 -->
+        <item>@string/no003_name</item> <!-- 名前 -->
+        <item>50</item> <!-- HP -->
+        <item>5</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill04_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability36_name</item> <!-- アビリティ1 -->
+        <item></item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.001</item> <!-- 交渉抵抗値 -->
+        <item>0.009</item> <!-- 交渉追加値 -->
+        <item>Lv2</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No004">
+        <item>No 004</item> <!-- No -->
+        <item>@drawable/ghost_2</item> <!-- 画像 -->
+        <item>@string/no004_name</item> <!-- 名前 -->
+        <item>75</item> <!-- HP -->
+        <item>7</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill13_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability41_name</item> <!-- アビリティ1 -->
+        <item></item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.002</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv3</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No005">
+        <item>No 005</item> <!-- No -->
+        <item>@drawable/armyant</item> <!-- 画像 -->
+        <item>@string/no005_name</item> <!-- 名前 -->
+        <item>75</item> <!-- HP -->
+        <item>8</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability21_name</item> <!-- アビリティ1 -->
+        <item></item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.002</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv3</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No006">
+        <item>No 006</item> <!-- No -->
+        <item>@drawable/devileye</item> <!-- 画像 -->
+        <item>@string/no006_name</item> <!-- 名前 -->
+        <item>108</item> <!-- HP -->
+        <item>10</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill22_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item></item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.005</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv4</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No007">
+        <item>No 007</item> <!-- No -->
+        <item>@drawable/cupid</item> <!-- 画像 -->
+        <item>@string/no007_name</item> <!-- 名前 -->
+        <item>106</item> <!-- HP -->
+        <item>11</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill40_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability31_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.004</item> <!-- 交渉抵抗値 -->
+        <item>0.01</item> <!-- 交渉追加値 -->
+        <item>Lv4</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No008">
+        <item>No 008</item> <!-- No -->
+        <item>@drawable/fireball</item> <!-- 画像 -->
+        <item>@string/no008_name</item> <!-- 名前 -->
+        <item>120</item> <!-- HP -->
+        <item>14</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill04_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability36_name</item> <!-- アビリティ1 -->
+        <item>@string/ability11_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.005</item> <!-- 交渉抵抗値 -->
+        <item>0.0125</item> <!-- 交渉追加値 -->
+        <item>Lv5</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No009">
+        <item>No 009</item> <!-- No -->
+        <item>@drawable/angel_3_noutenshi</item> <!-- 画像 -->
+        <item>@string/no009_name</item> <!-- 名前 -->
+        <item>155</item> <!-- HP -->
+        <item>15</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill31_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.006</item> <!-- 交渉抵抗値 -->
+        <item>0.015</item> <!-- 交渉追加値 -->
+        <item>Lv6</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No010">
+        <item>No 010</item> <!-- No -->
+        <item>@drawable/angelfish</item> <!-- 画像 -->
+        <item>@string/no010_name</item> <!-- 名前 -->
+        <item>180</item> <!-- HP -->
+        <item>18</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability31_name</item> <!-- アビリティ1 -->
+        <item>@string/ability41_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.007</item> <!-- 交渉抵抗値 -->
+        <item>0.0175</item> <!-- 交渉追加値 -->
+        <item>Lv7</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No011">
+        <item>No 011</item> <!-- No -->
+        <item>@drawable/panda_1</item> <!-- 画像 -->
+        <item>@string/no011_name</item> <!-- 名前 -->
+        <item>190</item> <!-- HP -->
+        <item>21</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability26_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.008</item> <!-- 交渉抵抗値 -->
+        <item>0.02</item> <!-- 交渉追加値 -->
+        <item>Lv8</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No012">
+        <item>No 012</item> <!-- No -->
+        <item>@drawable/crawler</item> <!-- 画像 -->
+        <item>@string/no012_name</item> <!-- 名前 -->
+        <item>170</item> <!-- HP -->
+        <item>20</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill31_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability26_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.007</item> <!-- 交渉抵抗値 -->
+        <item>0.0175</item> <!-- 交渉追加値 -->
+        <item>Lv7</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No013">
+        <item>No 013</item> <!-- No -->
+        <item>@drawable/fairy_sakura</item> <!-- 画像 -->
+        <item>@string/no013_name</item> <!-- 名前 -->
+        <item>220</item> <!-- HP -->
+        <item>23</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill40_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.009</item> <!-- 交渉抵抗値 -->
+        <item>0.0225</item> <!-- 交渉追加値 -->
+        <item>Lv9</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No014">
+        <item>No 014</item> <!-- No -->
+        <item>@drawable/mummy_1</item> <!-- 画像 -->
+        <item>@string/no014_name</item> <!-- 名前 -->
+        <item>230</item> <!-- HP -->
+        <item>23</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability21_name</item> <!-- アビリティ1 -->
+        <item>@string/ability51_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.009</item> <!-- 交渉抵抗値 -->
+        <item>0.0225</item> <!-- 交渉追加値 -->
+        <item>Lv9</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No015">
+        <item>No 015</item> <!-- No -->
+        <item>@drawable/neko_slime</item> <!-- 画像 -->
+        <item>@string/no015_name</item> <!-- 名前 -->
+        <item>245</item> <!-- HP -->
+        <item>25</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill22_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability46_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.025</item> <!-- 交渉追加値 -->
+        <item>Lv10</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No016">
+        <item>No 016</item> <!-- No -->
+        <item>@drawable/player_1</item> <!-- 画像 -->
+        <item>@string/no016_name</item> <!-- 名前 -->
+        <item>300</item> <!-- HP -->
+        <item>30</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.012</item> <!-- 交渉抵抗値 -->
+        <item>0.03</item> <!-- 交渉追加値 -->
+        <item>Lv12</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No017">
+        <item>No 017</item> <!-- No -->
+        <item>@drawable/abronxless</item> <!-- 画像 -->
+        <item>@string/no017_name</item> <!-- 名前 -->
+        <item>275</item> <!-- HP -->
+        <item>28</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.011</item> <!-- 交渉抵抗値 -->
+        <item>0.0275</item> <!-- 交渉追加値 -->
+        <item>Lv11</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No018">
+        <item>No 018</item> <!-- No -->
+        <item>@drawable/fighter_1</item> <!-- 画像 -->
+        <item>@string/no018_name</item> <!-- 名前 -->
+        <item>275</item> <!-- HP -->
+        <item>28</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability31_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.011</item> <!-- 交渉抵抗値 -->
+        <item>0.0275</item> <!-- 交渉追加値 -->
+        <item>Lv11</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No019">
+        <item>No 019</item> <!-- No -->
+        <item>@drawable/mushi</item> <!-- 画像 -->
+        <item>@string/no019_name</item> <!-- 名前 -->
+        <item>300</item> <!-- HP -->
+        <item>30</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill32_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability11_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.012</item> <!-- 交渉抵抗値 -->
+        <item>0.03</item> <!-- 交渉追加値 -->
+        <item>Lv12</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No020">
+        <item>No 020</item> <!-- No -->
+        <item>@drawable/slime</item> <!-- 画像 -->
+        <item>@string/no020_name</item> <!-- 名前 -->
+        <item>325</item> <!-- HP -->
+        <item>30</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill14_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability26_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.013</item> <!-- 交渉抵抗値 -->
+        <item>0.0352</item> <!-- 交渉追加値 -->
+        <item>Lv13</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No021">
+        <item>No 021</item> <!-- No -->
+        <item>@drawable/angel</item> <!-- 画像 -->
+        <item>@string/no021_name</item> <!-- 名前 -->
+        <item>355</item> <!-- HP -->
+        <item>36</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill23_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability06_name</item> <!-- アビリティ1 -->
+        <item>@string/ability46_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.014</item> <!-- 交渉抵抗値 -->
+        <item>0.035</item> <!-- 交渉追加値 -->
+        <item>Lv14</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No022">
+        <item>No 022</item> <!-- No -->
+        <item>@drawable/fighter_2</item> <!-- 画像 -->
+        <item>@string/no022_name</item> <!-- 名前 -->
+        <item>345</item> <!-- HP -->
+        <item>38</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill02_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability51_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.014</item> <!-- 交渉抵抗値 -->
+        <item>0.035</item> <!-- 交渉追加値 -->
+        <item>Lv14</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No023">
+        <item>No 023</item> <!-- No -->
+        <item>@drawable/kentauros_2</item> <!-- 画像 -->
+        <item>@string/no023_name</item> <!-- 名前 -->
+        <item>380</item> <!-- HP -->
+        <item>37</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill02_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+         <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.015</item> <!-- 交渉抵抗値 -->
+        <item>0.0375</item> <!-- 交渉追加値 -->
+        <item>Lv15</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No024">
+        <item>No 024</item> <!-- No -->
+        <item>@drawable/alraune_01</item> <!-- 画像 -->
+        <item>@string/no024_name</item> <!-- 名前 -->
+        <item>404</item> <!-- HP -->
+        <item>39</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill32_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability11_name</item> <!-- アビリティ1 -->
+        <item>@string/ability31_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.016</item> <!-- 交渉抵抗値 -->
+        <item>0.04</item> <!-- 交渉追加値 -->
+        <item>Lv16</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No025">
+        <item>No 025</item> <!-- No -->
+        <item>@drawable/magic_black</item> <!-- 画像 -->
+        <item>@string/no025_name</item> <!-- 名前 -->
+        <item>400</item> <!-- HP -->
+        <item>41</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill05_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability06_name</item> <!-- アビリティ1 -->
+        <item>@string/ability36_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.016</item> <!-- 交渉抵抗値 -->
+        <item>0.04</item> <!-- 交渉追加値 -->
+        <item>Lv16</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No026">
+        <item>No 026</item> <!-- No -->
+        <item>@drawable/priest</item> <!-- 画像 -->
+        <item>@string/no026_name</item> <!-- 名前 -->
+        <item>398</item> <!-- HP -->
+        <item>42</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill41_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability12_name</item> <!-- アビリティ1 -->
+        <item>@string/ability21_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.016</item> <!-- 交渉抵抗値 -->
+        <item>0.04</item> <!-- 交渉追加値 -->
+        <item>Lv16</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No027">
+        <item>No 027</item> <!-- No -->
+        <item>@drawable/magic_white</item> <!-- 画像 -->
+        <item>@string/no027_name</item> <!-- 名前 -->
+        <item>425</item> <!-- HP -->
+        <item>44</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill14_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability36_name</item> <!-- アビリティ1 -->
+        <item>@string/ability41_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.017</item> <!-- 交渉抵抗値 -->
+        <item>0.0475</item> <!-- 交渉追加値 -->
+        <item>Lv17</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No028">
+        <item>No 028</item> <!-- No -->
+        <item>@drawable/achaierai</item> <!-- 画像 -->
+        <item>@string/no028_name</item> <!-- 名前 -->
+        <item>425</item> <!-- HP -->
+        <item>43</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill32_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability11_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.017</item> <!-- 交渉抵抗値 -->
+        <item>0.0425</item> <!-- 交渉追加値 -->
+        <item>Lv17</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No029">
+        <item>No 029</item> <!-- No -->
+        <item>@drawable/anomalocaris</item> <!-- 画像 -->
+        <item>@string/no029_name</item> <!-- 名前 -->
+        <item>450</item> <!-- HP -->
+        <item>45</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill02_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability06_name</item> <!-- アビリティ1 -->
+        <item>@string/ability51_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.018</item> <!-- 交渉抵抗値 -->
+        <item>0.045</item> <!-- 交渉追加値 -->
+        <item>Lv18</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No030">
+        <item>No 030</item> <!-- No -->
+        <item>@drawable/flytrap</item> <!-- 画像 -->
+        <item>@string/no030_name</item> <!-- 名前 -->
+        <item>470</item> <!-- HP -->
+        <item>50</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill32_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability06_name</item> <!-- アビリティ1 -->
+        <item>@string/ability11_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.019</item> <!-- 交渉抵抗値 -->
+        <item>0.0475</item> <!-- 交渉追加値 -->
+        <item>Lv19</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No031">
+        <item>No 031</item> <!-- No -->
+        <item>@drawable/magic</item> <!-- 画像 -->
+        <item>@string/no031_name</item> <!-- 名前 -->
+        <item>505</item> <!-- HP -->
+        <item>49</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill23_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability47_name</item> <!-- アビリティ1 -->
+        <item>@string/ability32_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.02</item> <!-- 交渉抵抗値 -->
+        <item>0.05</item> <!-- 交渉追加値 -->
+        <item>Lv20</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No032">
+        <item>No 032</item> <!-- No -->
+        <item>@drawable/teacup_man</item> <!-- 画像 -->
+        <item>@string/no032_name</item> <!-- 名前 -->
+        <item>500</item> <!-- HP -->
+        <item>52</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill02_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability22_name</item> <!-- アビリティ1 -->
+        <item>@string/ability27_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.02</item> <!-- 交渉抵抗値 -->
+        <item>0.05</item> <!-- 交渉追加値 -->
+        <item>Lv20</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No033">
+        <item>No 033</item> <!-- No -->
+        <item>@drawable/mummy_2</item> <!-- 画像 -->
+        <item>@string/no033_name</item> <!-- 名前 -->
+        <item>525</item> <!-- HP -->
+        <item>52</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill32_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability22_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.021</item> <!-- 交渉抵抗値 -->
+        <item>0.0525</item> <!-- 交渉追加値 -->
+        <item>Lv21</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No034">
+        <item>No 034</item> <!-- No -->
+        <item>@drawable/dragonoid</item> <!-- 画像 -->
+        <item>@string/no034_name</item> <!-- 名前 -->
+        <item>555</item> <!-- HP -->
+        <item>55</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill05_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.022</item> <!-- 交渉抵抗値 -->
+        <item>0.055</item> <!-- 交渉追加値 -->
+        <item>Lv22</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No035">
+        <item>No 035</item> <!-- No -->
+        <item>@drawable/killerbee</item> <!-- 画像 -->
+        <item>@string/no035_name</item> <!-- 名前 -->
+        <item>550</item> <!-- HP -->
+        <item>57</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill02_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability41_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.022</item> <!-- 交渉抵抗値 -->
+        <item>0.055</item> <!-- 交渉追加値 -->
+        <item>Lv22</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No036">
+        <item>No 036</item> <!-- No -->
+        <item>@drawable/oni</item> <!-- 画像 -->
+        <item>@string/no036_name</item> <!-- 名前 -->
+        <item>575</item> <!-- HP -->
+        <item>58</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill14_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability42_name</item> <!-- アビリティ1 -->
+        <item>@string/ability47_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.023</item> <!-- 交渉抵抗値 -->
+        <item>0.0575</item> <!-- 交渉追加値 -->
+        <item>Lv23</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No037">
+        <item>No 037</item> <!-- No -->
+        <item>@drawable/zassou</item> <!-- 画像 -->
+        <item>@string/no037_name</item> <!-- 名前 -->
+        <item>605</item> <!-- HP -->
+        <item>60</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill38_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability12_name</item> <!-- アビリティ1 -->
+        <item>@string/ability27_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.024</item> <!-- 交渉抵抗値 -->
+        <item>0.06</item> <!-- 交渉追加値 -->
+        <item>Lv24</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No038">
+        <item>No 038</item> <!-- No -->
+        <item>@drawable/alien</item> <!-- 画像 -->
+        <item>@string/no038_name</item> <!-- 名前 -->
+        <item>600</item> <!-- HP -->
+        <item>62</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill26_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability52_name</item> <!-- アビリティ1 -->
+        <item>@string/ability47_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.024</item> <!-- 交渉抵抗値 -->
+        <item>0.06</item> <!-- 交渉追加値 -->
+        <item>Lv24</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No039">
+        <item>No 039</item> <!-- No -->
+        <item>@drawable/marman</item> <!-- 画像 -->
+        <item>@string/no039_name</item> <!-- 名前 -->
+        <item>625</item> <!-- HP -->
+        <item>65</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill14_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability07_name</item> <!-- アビリティ1 -->
+        <item>@string/ability12_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.025</item> <!-- 交渉抵抗値 -->
+        <item>0.0625</item> <!-- 交渉追加値 -->
+        <item>Lv25</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No040">
+        <item>No 040</item> <!-- No -->
+        <item>@drawable/snowman</item> <!-- 画像 -->
+        <item>@string/no040_name</item> <!-- 名前 -->
+        <item>625</item> <!-- HP -->
+        <item>62</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill14_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability22_name</item> <!-- アビリティ1 -->
+        <item>@string/ability42_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.025</item> <!-- 交渉抵抗値 -->
+        <item>0.0625</item> <!-- 交渉追加値 -->
+        <item>Lv25</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No041">
+        <item>No 041</item> <!-- No -->
+        <item>@drawable/tamago_saurus</item> <!-- 画像 -->
+        <item>@string/no041_name</item> <!-- 名前 -->
+        <item>650</item> <!-- HP -->
+        <item>65</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill32_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability27_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.026</item> <!-- 交渉抵抗値 -->
+        <item>0.065</item> <!-- 交渉追加値 -->
+        <item>Lv26</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No042">
+        <item>No 042</item> <!-- No -->
+        <item>@drawable/ei</item> <!-- 画像 -->
+        <item>@string/no042_name</item> <!-- 名前 -->
+        <item>640</item> <!-- HP -->
+        <item>67</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill41_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability57_name</item> <!-- アビリティ1 -->
+        <item>@string/ability32_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.026</item> <!-- 交渉抵抗値 -->
+        <item>0.065</item> <!-- 交渉追加値 -->
+        <item>Lv26</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No043">
+        <item>No 043</item> <!-- No -->
+        <item>@drawable/xidazoon</item> <!-- 画像 -->
+        <item>@string/no043_name</item> <!-- 名前 -->
+        <item>680</item> <!-- HP -->
+        <item>67</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill26_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability48_name</item> <!-- アビリティ1 -->
+        <item></item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.027</item> <!-- 交渉抵抗値 -->
+        <item>0.0675</item> <!-- 交渉追加値 -->
+        <item>Lv27</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No044">
+        <item>No 044</item> <!-- No -->
+        <item>@drawable/tengu_1</item> <!-- 画像 -->
+        <item>@string/no044_name</item> <!-- 名前 -->
+        <item>680</item> <!-- HP -->
+        <item>68</item> <!-- 攻撃力 -->
+        <item>0.6</item> <!-- スケール -->
+        <item>@string/skill41_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability07_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.027</item> <!-- 交渉抵抗値 -->
+        <item>0.0675</item> <!-- 交渉追加値 -->
+        <item>Lv27</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No045">
+        <item>No 045</item> <!-- No -->
+        <item>@drawable/yamaarashi</item> <!-- 画像 -->
+        <item>@string/no045_name</item> <!-- 名前 -->
+        <item>710</item> <!-- HP -->
+        <item>70</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill32_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability52_name</item> <!-- アビリティ1 -->
+        <item>@string/ability32_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.028</item> <!-- 交渉抵抗値 -->
+        <item>0.07</item> <!-- 交渉追加値 -->
+        <item>Lv28</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No046">
+        <item>No 046</item> <!-- No -->
+        <item>@drawable/bunbukuchagama</item> <!-- 画像 -->
+        <item>@string/no046_name</item> <!-- 名前 -->
+        <item>725</item> <!-- HP -->
+        <item>73</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill05_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability12_name</item> <!-- アビリティ1 -->
+        <item>@string/ability27_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.029</item> <!-- 交渉抵抗値 -->
+        <item>0.0725</item> <!-- 交渉追加値 -->
+        <item>Lv29</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No047">
+        <item>No 047</item> <!-- No -->
+        <item>@drawable/demon</item> <!-- 画像 -->
+        <item>@string/no047_name</item> <!-- 名前 -->
+        <item>755</item> <!-- HP -->
+        <item>77</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill06_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability27_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.03</item> <!-- 交渉抵抗値 -->
+        <item>0.075</item> <!-- 交渉追加値 -->
+        <item>Lv30</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No048">
+        <item>No 048</item> <!-- No -->
+        <item>@drawable/knocker</item> <!-- 画像 -->
+        <item>@string/no048_name</item> <!-- 名前 -->
+        <item>750</item> <!-- HP -->
+        <item>75</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability22_name</item> <!-- アビリティ1 -->
+        <item>@string/ability52_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.031</item> <!-- 交渉抵抗値 -->
+        <item>0.0775</item> <!-- 交渉追加値 -->
+        <item>Lv31</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No049">
+        <item>No 049</item> <!-- No -->
+        <item>@drawable/mind_flayer</item> <!-- 画像 -->
+        <item>@string/no049_name</item> <!-- 名前 -->
+        <item>775</item> <!-- HP -->
+        <item>78</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill24_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability07_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.031</item> <!-- 交渉抵抗値 -->
+        <item>0.0775</item> <!-- 交渉追加値 -->
+        <item>Lv31</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No050">
+        <item>No 050</item> <!-- No -->
+        <item>@drawable/tan_koro_rin</item> <!-- 画像 -->
+        <item>@string/no050_name</item> <!-- 名前 -->
+        <item>805</item> <!-- HP -->
+        <item>80</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability12_name</item> <!-- アビリティ1 -->
+        <item>@string/ability22_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.032</item> <!-- 交渉抵抗値 -->
+        <item>0.08</item> <!-- 交渉追加値 -->
+        <item>Lv32</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No051">
+        <item>No 051</item> <!-- No -->
+        <item>@drawable/fox</item> <!-- 画像 -->
+        <item>@string/no051_name</item> <!-- 名前 -->
+        <item>805</item> <!-- HP -->
+        <item>80</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill42_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability32_name</item> <!-- アビリティ1 -->
+        <item>@string/ability22_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.032</item> <!-- 交渉抵抗値 -->
+        <item>0.08</item> <!-- 交渉追加値 -->
+        <item>Lv32</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No052">
+        <item>No 052</item> <!-- No -->
+        <item>@drawable/hiyodori</item> <!-- 画像 -->
+        <item>@string/no052_name</item> <!-- 名前 -->
+        <item>820</item> <!-- HP -->
+        <item>84</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill42_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability12_name</item> <!-- アビリティ1 -->
+        <item>@string/ability02_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.033</item> <!-- 交渉抵抗値 -->
+        <item>0.0825</item> <!-- 交渉追加値 -->
+        <item>Lv33</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No053">
+        <item>No 053</item> <!-- No -->
+        <item>@drawable/girlbox</item> <!-- 画像 -->
+        <item>@string/no053_name</item> <!-- 名前 -->
+        <item>850</item> <!-- HP -->
+        <item>85</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill06_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability27_name</item> <!-- アビリティ1 -->
+        <item>@string/ability42_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.034</item> <!-- 交渉抵抗値 -->
+        <item>0.0875</item> <!-- 交渉追加値 -->
+        <item>Lv34</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No054">
+        <item>No 054</item> <!-- No -->
+        <item>@drawable/jackbox</item> <!-- 画像 -->
+        <item>@string/no054_name</item> <!-- 名前 -->
+        <item>870</item> <!-- HP -->
+        <item>88</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability22_name</item> <!-- アビリティ1 -->
+        <item>@string/ability32_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.035</item> <!-- 交渉抵抗値 -->
+        <item>0.0875</item> <!-- 交渉追加値 -->
+        <item>Lv35</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No055">
+        <item>No 055</item> <!-- No -->
+        <item>@drawable/kappa_normal</item> <!-- 画像 -->
+        <item>@string/no055_name</item> <!-- 名前 -->
+        <item>880</item> <!-- HP -->
+        <item>87</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill15_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability42_name</item> <!-- アビリティ1 -->
+        <item>@string/ability52_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.035</item> <!-- 交渉抵抗値 -->
+        <item>0.0875</item> <!-- 交渉追加値 -->
+        <item>Lv35</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No056">
+        <item>No 056</item> <!-- No -->
+        <item>@drawable/seasir</item> <!-- 画像 -->
+        <item>@string/no056_name</item> <!-- 名前 -->
+        <item>890</item> <!-- HP -->
+        <item>92</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill24_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability47_name</item> <!-- アビリティ1 -->
+        <item>@string/ability57_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.036</item> <!-- 交渉抵抗値 -->
+        <item>0.09</item> <!-- 交渉追加値 -->
+        <item>Lv36</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No057">
+        <item>No 057</item> <!-- No -->
+        <item>@drawable/spirit_of_water_b</item> <!-- 画像 -->
+        <item>@string/no057_name</item> <!-- 名前 -->
+        <item>925</item> <!-- HP -->
+        <item>93</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill15_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability12_name</item> <!-- アビリティ1 -->
+        <item>@string/ability42_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.037</item> <!-- 交渉抵抗値 -->
+        <item>0.0975</item> <!-- 交渉追加値 -->
+        <item>Lv37</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No058">
+        <item>No 058</item> <!-- No -->
+        <item>@drawable/alra_02</item> <!-- 画像 -->
+        <item>@string/no058_name</item> <!-- 名前 -->
+        <item>910</item> <!-- HP -->
+        <item>94</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill33_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability07_name</item> <!-- アビリティ1 -->
+        <item>@string/ability12_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.037</item> <!-- 交渉抵抗値 -->
+        <item>0.0975</item> <!-- 交渉追加値 -->
+        <item>Lv37</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No059">
+        <item>No 059</item> <!-- No -->
+        <item>@drawable/fury</item> <!-- 画像 -->
+        <item>@string/no059_name</item> <!-- 名前 -->
+        <item>955</item> <!-- HP -->
+        <item>95</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill27_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability22_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.038</item> <!-- 交渉抵抗値 -->
+        <item>0.095</item> <!-- 交渉追加値 -->
+        <item>Lv38</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No060">
+        <item>No 060</item> <!-- No -->
+        <item>@drawable/mino_2</item> <!-- 画像 -->
+        <item>@string/no060_name</item> <!-- 名前 -->
+        <item>945</item> <!-- HP -->
+        <item>95</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability13_name</item> <!-- アビリティ1 -->
+        <item>@string/ability22_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.038</item> <!-- 交渉抵抗値 -->
+        <item>0.095</item> <!-- 交渉追加値 -->
+        <item>Lv38</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No061">
+        <item>No 061</item> <!-- No -->
+        <item>@drawable/oni_gunsou</item> <!-- 画像 -->
+        <item>@string/no061_name</item> <!-- 名前 -->
+        <item>975</item> <!-- HP -->
+        <item>98</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill33_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability32_name</item> <!-- アビリティ1 -->
+        <item>@string/ability52_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.039</item> <!-- 交渉抵抗値 -->
+        <item>0.0975</item> <!-- 交渉追加値 -->
+        <item>Lv39</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No062">
+        <item>No 062</item> <!-- No -->
+        <item>@drawable/ghost_3</item> <!-- 画像 -->
+        <item>@string/no062_name</item> <!-- 名前 -->
+        <item>980</item> <!-- HP -->
+        <item>99</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill06_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability37_name</item> <!-- アビリティ1 -->
+        <item>@string/ability42_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.039</item> <!-- 交渉抵抗値 -->
+        <item>0.0975</item> <!-- 交渉追加値 -->
+        <item>Lv39</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No063">
+        <item>No 063</item> <!-- No -->
+        <item>@drawable/onbonoyasu</item> <!-- 画像 -->
+        <item>@string/no063_name</item> <!-- 名前 -->
+        <item>1000</item> <!-- HP -->
+        <item>100</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill33_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability08_name</item> <!-- アビリティ1 -->
+        <item>@string/ability23_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.04</item> <!-- 交渉抵抗値 -->
+        <item>0.1</item> <!-- 交渉追加値 -->
+        <item>Lv40</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No064">
+        <item>No 064</item> <!-- No -->
+        <item>@drawable/ninja</item> <!-- 画像 -->
+        <item>@string/no064_name</item> <!-- 名前 -->
+        <item>1025</item> <!-- HP -->
+        <item>103</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability03_name</item> <!-- アビリティ1 -->
+        <item>@string/ability33_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.041</item> <!-- 交渉抵抗値 -->
+        <item>0.1025</item> <!-- 交渉追加値 -->
+        <item>Lv41</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No065">
+        <item>No 065</item> <!-- No -->
+        <item>@drawable/ammit</item> <!-- 画像 -->
+        <item>@string/no065_name</item> <!-- 名前 -->
+        <item>1055</item> <!-- HP -->
+        <item>105</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability08_name</item> <!-- アビリティ1 -->
+        <item>@string/ability58_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.042</item> <!-- 交渉抵抗値 -->
+        <item>0.105</item> <!-- 交渉追加値 -->
+        <item>Lv42</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No066">
+        <item>No 066</item> <!-- No -->
+        <item>@drawable/kappa_mintsuchi</item> <!-- 画像 -->
+        <item>@string/no066_name</item> <!-- 名前 -->
+        <item>1055</item> <!-- HP -->
+        <item>105</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill15_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability28_name</item> <!-- アビリティ1 -->
+        <item>@string/ability43_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.042</item> <!-- 交渉抵抗値 -->
+        <item>0.105</item> <!-- 交渉追加値 -->
+        <item>Lv42</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No067">
+        <item>No 067</item> <!-- No -->
+        <item>@drawable/scarecrow</item> <!-- 画像 -->
+        <item>@string/no067_name</item> <!-- 名前 -->
+        <item>1080</item> <!-- HP -->
+        <item>108</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability03_name</item> <!-- アビリティ1 -->
+        <item>@string/ability13_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.043</item> <!-- 交渉抵抗値 -->
+        <item>0.1075</item> <!-- 交渉追加値 -->
+        <item>Lv43</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No068">
+        <item>No 068</item> <!-- No -->
+        <item>@drawable/little_prince</item> <!-- 画像 -->
+        <item>@string/no068_name</item> <!-- 名前 -->
+        <item>1105</item> <!-- HP -->
+        <item>110</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill43_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability33_name</item> <!-- アビリティ1 -->
+        <item>@string/ability58_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.044</item> <!-- 交渉抵抗値 -->
+        <item>0.11</item> <!-- 交渉追加値 -->
+        <item>Lv44</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No069">
+        <item>No 069</item> <!-- No -->
+        <item>@drawable/tank</item> <!-- 画像 -->
+        <item>@string/no069_name</item> <!-- 名前 -->
+        <item>1110</item> <!-- HP -->
+        <item>110</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill49_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability08_name</item> <!-- アビリティ1 -->
+        <item>@string/ability13_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.044</item> <!-- 交渉抵抗値 -->
+        <item>0.11</item> <!-- 交渉追加値 -->
+        <item>Lv44</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No070">
+        <item>No 070</item> <!-- No -->
+        <item>@drawable/apeman</item> <!-- 画像 -->
+        <item>@string/no070_name</item> <!-- 名前 -->
+        <item>1125</item> <!-- HP -->
+        <item>114</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill34_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability13_name</item> <!-- アビリティ1 -->
+        <item>@string/ability53_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.045</item> <!-- 交渉抵抗値 -->
+        <item>0.1125</item> <!-- 交渉追加値 -->
+        <item>Lv45</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No071">
+        <item>No 071</item> <!-- No -->
+        <item>@drawable/grell_1</item> <!-- 画像 -->
+        <item>@string/no071_name</item> <!-- 名前 -->
+        <item>1128</item> <!-- HP -->
+        <item>113</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill25_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability23_name</item> <!-- アビリティ1 -->
+        <item>@string/ability48_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.045</item> <!-- 交渉抵抗値 -->
+        <item>0.1125</item> <!-- 交渉追加値 -->
+        <item>Lv45</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No072">
+        <item>No 072</item> <!-- No -->
+        <item>@drawable/pan</item> <!-- 画像 -->
+        <item>@string/no072_name</item> <!-- 名前 -->
+        <item>1150</item> <!-- HP -->
+        <item>116</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill43_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability03_name</item> <!-- アビリティ1 -->
+        <item>@string/ability33_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.046</item> <!-- 交渉抵抗値 -->
+        <item>0.115</item> <!-- 交渉追加値 -->
+        <item>Lv46</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No073">
+        <item>No 073</item> <!-- No -->
+        <item>@drawable/troll</item> <!-- 画像 -->
+        <item>@string/no073_name</item> <!-- 名前 -->
+        <item>1175</item> <!-- HP -->
+        <item>118</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill49_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability08_name</item> <!-- アビリティ1 -->
+        <item>@string/ability13_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.047</item> <!-- 交渉抵抗値 -->
+        <item>0.1175</item> <!-- 交渉追加値 -->
+        <item>Lv47</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No074">
+        <item>No 074</item> <!-- No -->
+        <item>@drawable/armor</item> <!-- 画像 -->
+        <item>@string/no074_name</item> <!-- 名前 -->
+        <item>1223</item> <!-- HP -->
+        <item>121</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill49_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability33_name</item> <!-- アビリティ1 -->
+        <item>@string/ability38_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.048</item> <!-- 交渉抵抗値 -->
+        <item>0.12</item> <!-- 交渉追加値 -->
+        <item>Lv48</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No075">
+        <item>No 075</item> <!-- No -->
+        <item>@drawable/goblin_2</item> <!-- 画像 -->
+        <item>@string/no075_name</item> <!-- 名前 -->
+        <item>1200</item> <!-- HP -->
+        <item>122</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill16_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability03_name</item> <!-- アビリティ1 -->
+        <item>@string/ability43_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.048</item> <!-- 交渉抵抗値 -->
+        <item>0.12</item> <!-- 交渉追加値 -->
+        <item>Lv48</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No076">
+        <item>No 076</item> <!-- No -->
+        <item>@drawable/goblin</item> <!-- 画像 -->
+        <item>@string/no076_name</item> <!-- 名前 -->
+        <item>1225</item> <!-- HP -->
+        <item>115</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill04_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability08_name</item> <!-- アビリティ1 -->
+        <item>@string/ability38_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.049</item> <!-- 交渉抵抗値 -->
+        <item>0.1225</item> <!-- 交渉追加値 -->
+        <item>Lv49</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No077">
+        <item>No 077</item> <!-- No -->
+        <item>@drawable/merman</item> <!-- 画像 -->
+        <item>@string/no077_name</item> <!-- 名前 -->
+        <item>1255</item> <!-- HP -->
+        <item>125</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill16_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability23_name</item> <!-- アビリティ1 -->
+        <item>@string/ability38_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.05</item> <!-- 交渉抵抗値 -->
+        <item>0.125</item> <!-- 交渉追加値 -->
+        <item>Lv50</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No078">
+        <item>No 078</item> <!-- No -->
+        <item>@drawable/dwarf</item> <!-- 画像 -->
+        <item>@string/no078_name</item> <!-- 名前 -->
+        <item>1252</item> <!-- HP -->
+        <item>126</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill34_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability08_name</item> <!-- アビリティ1 -->
+        <item>@string/ability53_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.05</item> <!-- 交渉抵抗値 -->
+        <item>0.125</item> <!-- 交渉追加値 -->
+        <item>Lv50</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No079">
+        <item>No 079</item> <!-- No -->
+        <item>@drawable/mammoth</item> <!-- 画像 -->
+        <item>@string/no079_name</item> <!-- 名前 -->
+        <item>1278</item> <!-- HP -->
+        <item>128</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv51</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No080">
+        <item>No 080</item> <!-- No -->
+        <item>@drawable/salty_dog</item> <!-- 画像 -->
+        <item>@string/no080_name</item> <!-- 名前 -->
+        <item>1278</item> <!-- HP -->
+        <item>128</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv51</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No081">
+        <item>No 081</item> <!-- No -->
+        <item>@drawable/triton</item> <!-- 画像 -->
+        <item>@string/no081_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv52</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No082">
+        <item>No 082</item> <!-- No -->
+        <item>@drawable/abel</item> <!-- 画像 -->
+        <item>@string/no082_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv52</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No083">
+        <item>No 083</item> <!-- No -->
+        <item>@drawable/grell_2</item> <!-- 画像 -->
+        <item>@string/no083_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv53</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No084">
+        <item>No 084</item> <!-- No -->
+        <item>@drawable/angel_4_zatenshi</item> <!-- 画像 -->
+        <item>@string/no084_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv54</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No085">
+        <item>No 085</item> <!-- No -->
+        <item>@drawable/archaeopteryx</item> <!-- 画像 -->
+        <item>@string/no085_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv54</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No086">
+        <item>No 086</item> <!-- No -->
+        <item>@drawable/lemur</item> <!-- 画像 -->
+        <item>@string/no086_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv55</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No087">
+        <item>No 087</item> <!-- No -->
+        <item>@drawable/straw_bat</item> <!-- 画像 -->
+        <item>@string/no087_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv56</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No088">
+        <item>No 088</item> <!-- No -->
+        <item>@drawable/android</item> <!-- 画像 -->
+        <item>@string/no088_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.6</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv56</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No089">
+        <item>No 089</item> <!-- No -->
+        <item>@drawable/gangster</item> <!-- 画像 -->
+        <item>@string/no089_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv57</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No090">
+        <item>No 090</item> <!-- No -->
+        <item>@drawable/myconid</item> <!-- 画像 -->
+        <item>@string/no090_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv57</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No091">
+        <item>No 091</item> <!-- No -->
+        <item>@drawable/maneater</item> <!-- 画像 -->
+        <item>@string/no091_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv58</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No092">
+        <item>No 092</item> <!-- No -->
+        <item>@drawable/dokurokamen</item> <!-- 画像 -->
+        <item>@string/no092_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv59</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No093">
+        <item>No 093</item> <!-- No -->
+        <item>@drawable/go</item> <!-- 画像 -->
+        <item>@string/no093_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv60</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No094">
+        <item>No 094</item> <!-- No -->
+        <item>@drawable/opabinia</item> <!-- 画像 -->
+        <item>@string/no094_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv60</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No095">
+        <item>No 095</item> <!-- No -->
+        <item>@drawable/shambles</item> <!-- 画像 -->
+        <item>@string/no095_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv61</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No096">
+        <item>No 096</item> <!-- No -->
+        <item>@drawable/witch</item> <!-- 画像 -->
+        <item>@string/no089_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv62</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No097">
+        <item>No 097</item> <!-- No -->
+        <item>@drawable/line_man</item> <!-- 画像 -->
+        <item>@string/no089_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv63</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No098">
+        <item>No 098</item> <!-- No -->
+        <item>@drawable/snake</item> <!-- 画像 -->
+        <item>@string/no098_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv63</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No099">
+        <item>No 099</item> <!-- No -->
+        <item>@drawable/panda_2</item> <!-- 画像 -->
+        <item>@string/no099_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv64</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No100">
+        <item>No 100</item> <!-- No -->
+        <item>@drawable/ghost_1</item> <!-- 画像 -->
+        <item>@string/no100_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv64</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No101">
+        <item>No 101</item> <!-- No -->
+        <item>@drawable/heishi</item> <!-- 画像 -->
+        <item>@string/no101_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv65</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No102">
+        <item>No 102</item> <!-- No -->
+        <item>@drawable/goblin_3</item> <!-- 画像 -->
+        <item>@string/no102_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv65</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No103">
+        <item>No 103</item> <!-- No -->
+        <item>@drawable/player_2</item> <!-- 画像 -->
+        <item>@string/no103_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv66</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No104">
+        <item>No 104</item> <!-- No -->
+        <item>@drawable/pos</item> <!-- 画像 -->
+        <item>@string/no104_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv66</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No105">
+        <item>No 105</item> <!-- No -->
+        <item>@drawable/thief</item> <!-- 画像 -->
+        <item>@string/no105_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv67</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No106">
+        <item>No 106</item> <!-- No -->
+        <item>@drawable/yurei</item> <!-- 画像 -->
+        <item>@string/no106_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv67</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No107">
+        <item>No 107</item> <!-- No -->
+        <item>@drawable/lilim</item> <!-- 画像 -->
+        <item>@string/no107_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv68</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No108">
+        <item>No 108</item> <!-- No -->
+        <item>@drawable/orge</item> <!-- 画像 -->
+        <item>@string/no108_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv69</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No109">
+        <item>No 109</item> <!-- No -->
+        <item>@drawable/usi</item> <!-- 画像 -->
+        <item>@string/no109_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv70</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No110">
+        <item>No 110</item> <!-- No -->
+        <item>@drawable/kappa_suiko</item> <!-- 画像 -->
+        <item>@string/no110_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.6</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv70</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No111">
+        <item>No 111</item> <!-- No -->
+        <item>@drawable/kobold</item> <!-- 画像 -->
+        <item>@string/no111_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv71</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No112">
+        <item>No 112</item> <!-- No -->
+        <item>@drawable/scorpion_1</item> <!-- 画像 -->
+        <item>@string/no112_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv72</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No113">
+        <item>No 113</item> <!-- No -->
+        <item>@drawable/gremlin</item> <!-- 画像 -->
+        <item>@string/no113_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv72</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No114">
+        <item>No 114</item> <!-- No -->
+        <item>@drawable/akindo</item> <!-- 画像 -->
+        <item>@string/no114_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv73</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No115">
+        <item>No 115</item> <!-- No -->
+        <item>@drawable/yuki_musume_1</item> <!-- 画像 -->
+        <item>@string/no115_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv74</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No116">
+        <item>No 116</item> <!-- No -->
+        <item>@drawable/player_3</item> <!-- 画像 -->
+        <item>@string/no116_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv74</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No117">
+        <item>No 117</item> <!-- No -->
+        <item>@drawable/ringo_chan</item> <!-- 画像 -->
+        <item>@string/no117_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv75</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No118">
+        <item>No 118</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no118_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv75</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No119">
+        <item>No 119</item> <!-- No -->
+        <item>@drawable/golem_3</item> <!-- 画像 -->
+        <item>@string/no119_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv76</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No120">
+        <item>No 120</item> <!-- No -->
+        <item>@drawable/statue</item> <!-- 画像 -->
+        <item>@string/no120_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv76</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No121">
+        <item>No 121</item> <!-- No -->
+        <item>@drawable/custard_pudding_l</item> <!-- 画像 -->
+        <item>@string/no121_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv77</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No122">
+        <item>No 122</item> <!-- No -->
+        <item>@drawable/yasai_jin_1</item> <!-- 画像 -->
+        <item>@string/no122_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv78</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No123">
+        <item>No 123</item> <!-- No -->
+        <item>@drawable/chupacabra</item> <!-- 画像 -->
+        <item>@string/no123_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv78</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No124">
+        <item>No 124</item> <!-- No -->
+        <item>@drawable/mud_man</item> <!-- 画像 -->
+        <item>@string/no124_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv79</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No125">
+        <item>No 125</item> <!-- No -->
+        <item>@drawable/yuki_musume_2</item> <!-- 画像 -->
+        <item>@string/no125_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv80</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No126">
+        <item>No 126</item> <!-- No -->
+        <item>@drawable/elf_2</item> <!-- 画像 -->
+        <item>@string/no126_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv81</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No127">
+        <item>No 127</item> <!-- No -->
+        <item>@drawable/arcdemon_b</item> <!-- 画像 -->
+        <item>@string/no127_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv83</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No128">
+        <item>No 128</item> <!-- No -->
+        <item>@drawable/babirusa</item> <!-- 画像 -->
+        <item>@string/no128_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv83</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No129">
+        <item>No 129</item> <!-- No -->
+        <item>@drawable/player_4</item> <!-- 画像 -->
+        <item>@string/no129_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.7</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv85</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No130">
+        <item>No 130</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no130_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv84</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No131">
+        <item>No 131</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no131_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No132">
+        <item>No 132</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no132_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No133">
+        <item>No 133</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no133_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No134">
+        <item>No 134</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no134_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No135">
+        <item>No 135</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no135_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No136">
+        <item>No 136</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no136_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No137">
+        <item>No 137</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no137_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <string-array name="No138">
+        <item>No 138</item> <!-- No -->
+        <item>@drawable/crab</item> <!-- 画像 -->
+        <item>@string/no138_name</item> <!-- 名前 -->
+        <item>110</item> <!-- HP -->
+        <item>1</item> <!-- 攻撃力 -->
+        <item>0.5</item> <!-- スケール -->
+        <item>@string/skill01_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+        <item>0.01</item> <!-- 交渉抵抗値 -->
+        <item>0.008</item> <!-- 交渉追加値 -->
+        <item>Lv1</item> <!-- 強さレベル -->
+        <item></item> <!-- 予備 -->
+    </string-array>
+    <!-- 面情報 -->
+    <string-array name="map1">
+        <item>@array/No002</item>
+    </string-array>
+    <string-array name="map2">
+        <item>@array/No002</item>
+        <item>@array/No003</item>
+    </string-array>
+    <string-array name="map3">
+        <item>@array/No002</item>
+        <item>@array/No003</item>
+        <item>@array/No002</item>
+    </string-array>
+    <string-array name="map4">
+        <item>@array/No004</item>
+    </string-array>
+    <string-array name="map5">
+        <item>@array/No004</item>
+        <item>@array/No005</item>
+    </string-array>
+    <string-array name="map6">
+        <item>@array/No003</item>
+        <item>@array/No002</item>
+        <item>@array/No002</item>
+        <item>@array/No003</item>
+    </string-array>
+    <string-array name="map7">
+        <item>@array/No006</item>
+        <item>@array/No004</item>
+    </string-array>
+    <string-array name="map8">
+        <item>@array/No006</item>
+        <item>@array/No004</item>
+        <item>@array/No005</item>
+    </string-array>
+    <string-array name="map9">
+        <item>@array/No005</item>
+        <item>@array/No007</item>
+    </string-array>
+    <string-array name="map10">
+        <item>@array/No006</item>
+        <item>@array/No006</item>
+        <item>@array/No005</item>
+    </string-array>
+    <string-array name="map11">
+        <item>@array/No008</item>
+        <item>@array/No007</item>
+    </string-array>
+    <string-array name="map12">
+        <item>@array/No007</item>
+        <item>@array/No009</item>
+    </string-array>
+    <string-array name="map13">
+        <item>@array/No010</item>
+        <item>@array/No006</item>
+    </string-array>
+    <string-array name="map14">
+        <item>@array/No007</item>
+        <item>@array/No011</item>
+        <item>@array/No007</item>
+    </string-array>
+    <string-array name="map15">
+        <item>@array/No012</item>
+        <item>@array/No008</item>
+        <item>@array/No009</item>
+    </string-array>
+    <string-array name="map16">
+        <item>@array/No011</item>
+        <item>@array/No012</item>
+        <item>@array/No010</item>
+    </string-array>
+    <string-array name="map17">
+        <item>@array/No013</item>
+        <item>@array/No014</item>
+    </string-array>
+    <string-array name="map18">
+        <item>@array/No014</item>
+        <item>@array/No015</item>
+        <item>@array/No014</item>
+    </string-array>
+    <string-array name="map19">
+        <item>@array/No017</item>
+    </string-array>
+    <string-array name="map20">
+        <item>@array/No016</item>
+        <item>@array/No016</item>
+    </string-array>
+    <string-array name="map21">
+        <item>@array/No016</item>
+        <item>@array/No017</item>
+        <item>@array/No016</item>
+    </string-array>
+    <string-array name="map22">
+        <item>@array/No018</item>
+        <item>@array/No019</item>
+    </string-array>
+    <string-array name="map23">
+        <item>@array/No022</item>
+    </string-array>
+    <string-array name="map24">
+        <item>@array/No016</item>
+        <item>@array/No020</item>
+        <item>@array/No016</item>
+    </string-array>
+    <string-array name="map25">
+        <item>@array/No021</item>
+        <item>@array/No019</item>
+        <item>@array/No019</item>
+    </string-array>
+    <string-array name="map26">
+        <item>@array/No020</item>
+        <item>@array/No022</item>
+        <item>@array/No020</item>
+    </string-array>
+    <string-array name="map27">
+        <item>@array/No023</item>
+        <item>@array/No023</item>
+    </string-array>
+    <string-array name="map28">
+        <item>@array/No026</item>
+    </string-array>
+    <string-array name="map29">
+        <item>@array/No001</item>
+        <item>@array/No004</item>
+        <item>@array/No005</item>
+    </string-array>
+    <string-array name="map30">
+        <item>@array/No024</item>
+        <item>@array/No020</item>
+        <item>@array/No024</item>
+    </string-array>
+    <string-array name="map31">
+        <item>@array/No025</item>
+        <item>@array/No023</item>
+        <item>@array/No024</item>
+    </string-array>
+    <string-array name="map32">
+        <item>@array/No026</item>
+        <item>@array/No026</item>
+    </string-array>
+    <string-array name="map33">
+        <item>@array/No027</item>
+        <item>@array/No027</item>
+    </string-array>
+    <string-array name="map34">
+        <item>@array/No030</item>
+    </string-array>
+    <string-array name="map35">
+        <item>@array/No026</item>
+        <item>@array/No028</item>
+        <item>@array/No026</item>
+    </string-array>
+    <string-array name="map36">
+        <item>@array/No029</item>
+        <item>@array/No023</item>
+        <item>@array/No026</item>
+    </string-array>
+    <string-array name="map37">
+        <item>@array/No030</item>
+        <item>@array/No027</item>
+        <item>@array/No030</item>
+    </string-array>
+    <string-array name="map38">
+        <item>@array/No029</item>
+        <item>@array/No031</item>
+        <item>@array/No029</item>
+    </string-array>
+    <string-array name="map39">
+        <item>@array/No032</item>
+        <item>@array/No032</item>
+    </string-array>
+    <string-array name="map40">
+        <item>@array/No032</item>
+        <item>@array/No033</item>
+        <item>@array/No032</item>
+    </string-array>
+    <string-array name="map41">
+        <item>@array/No035</item>
+    </string-array>
+    <string-array name="map42">
+        <item>@array/No034</item>
+        <item>@array/No034</item>
+    </string-array>
+    <string-array name="map43">
+        <item>@array/No035</item>
+        <item>@array/No034</item>
+        <item>@array/No035</item>
+    </string-array>
+    <string-array name="map44">
+        <item>@array/No034</item>
+        <item>@array/No036</item>
+        <item>@array/No034</item>
+    </string-array>
+    <string-array name="map45">
+        <item>@array/No035</item>
+        <item>@array/No035</item>
+        <item>@array/No035</item>
+    </string-array>
+    <string-array name="map46">
+        <item>@array/No036</item>
+        <item>@array/No036</item>
+    </string-array>
+    <string-array name="map47">
+        <item>@array/No035</item>
+        <item>@array/No037</item>
+        <item>@array/No035</item>
+    </string-array>
+    <string-array name="map48">
+        <item>@array/No038</item>
+        <item>@array/No038</item>
+    </string-array>
+    <string-array name="map49">
+        <item>@array/No037</item>
+        <item>@array/No039</item>
+        <item>@array/No037</item>
+    </string-array>
+    <string-array name="map50">
+        <item>@array/No040</item>
+        <item>@array/No038</item>
+        <item>@array/No040</item>
+    </string-array>
+    <string-array name="map51">
+        <item>@array/No041</item>
+        <item>@array/No039</item>
+    </string-array>
+    <string-array name="map52">
+        <item>@array/No043</item>
+    </string-array>
+    <string-array name="map53">
+        <item>@array/No042</item>
+        <item>@array/No042</item>
+    </string-array>
+    <string-array name="map54">
+        <item>@array/No043</item>
+        <item>@array/No041</item>
+    </string-array>
+    <string-array name="map55">
+        <item>@array/No044</item>
+        <item>@array/No043</item>
+        <item>@array/No044</item>
+    </string-array>
+    <string-array name="map56">
+        <item>@array/No042</item>
+        <item>@array/No045</item>
+        <item>@array/No042</item>
+    </string-array>
+    <string-array name="map57">
+        <item>@array/No046</item>
+        <item>@array/No045</item>
+    </string-array>
+    <string-array name="map58">
+        <item>@array/No047</item>
+        <item>@array/No047</item>
+    </string-array>
+    <string-array name="map59">
+        <item>@array/No048</item>
+        <item>@array/No046</item>
+    </string-array>
+    <string-array name="map60">
+        <item>@array/No040</item>
+        <item>@array/No050</item>
+        <item>@array/No040</item>
+    </string-array>
+    <string-array name="map61">
+        <item>@array/No049</item>
+        <item>@array/No046</item>
+        <item>@array/No049</item>
+    </string-array>
+    <string-array name="map62">
+        <item>@array/No051</item>
+        <item>@array/No051</item>
+    </string-array>
+    <string-array name="map63">
+        <item>@array/No052</item>
+        <item>@array/No050</item>
+        <item>@array/No050</item>
+    </string-array>
+    <string-array name="map64">
+        <item>@array/No053</item>
+        <item>@array/No051</item>
+    </string-array>
+    <string-array name="map65">
+        <item>@array/No054</item>
+        <item>@array/No050</item>
+        <item>@array/No050</item>
+    </string-array>
+    <string-array name="map66">
+        <item>@array/No057</item>
+    </string-array>
+    <string-array name="map67">
+        <item>@array/No055</item>
+        <item>@array/No055</item>
+    </string-array>
+    <string-array name="map68">
+        <item>@array/No053</item>
+        <item>@array/No056</item>
+        <item>@array/No053</item>
+    </string-array>
+    <string-array name="map69">
+        <item>@array/No057</item>
+        <item>@array/No056</item>
+    </string-array>
+    <string-array name="map70">
+        <item>@array/No056</item>
+        <item>@array/No058</item>
+        <item>@array/No056</item>
+    </string-array>
+    <string-array name="map71">
+        <item>@array/No059</item>
+        <item>@array/No058</item>
+        <item>@array/No056</item>
+    </string-array>
+    <string-array name="map72">
+        <item>@array/No060</item>
+        <item>@array/No060</item>
+    </string-array>
+    <string-array name="map73">
+        <item>@array/No061</item>
+        <item>@array/No060</item>
+    </string-array>
+    <string-array name="map74">
+        <item>@array/No062</item>
+        <item>@array/No060</item>
+        <item>@array/No060</item>
+    </string-array>
+    <string-array name="map75">
+        <item>@array/No065</item>
+    </string-array>
+    <string-array name="map76">
+        <item>@array/No063</item>
+        <item>@array/No063</item>
+    </string-array>
+    <string-array name="map77">
+        <item>@array/No063</item>
+        <item>@array/No064</item>
+        <item>@array/No062</item>
+    </string-array>
+    <string-array name="map78">
+        <item>@array/No065</item>
+        <item>@array/No063</item>
+    </string-array>
+    <string-array name="map79">
+        <item>@array/No066</item>
+        <item>@array/No067</item>
+    </string-array>
+    <string-array name="map80">
+        <item>@array/No066</item>
+        <item>@array/No068</item>
+        <item>@array/No066</item>
+    </string-array>
+    <string-array name="map81">
+        <item>@array/No069</item>
+        <item>@array/No067</item>
+        <item>@array/No066</item>
+    </string-array>
+    <string-array name="map82">
+        <item>@array/No072</item>
+    </string-array>
+    <string-array name="map83">
+        <item>@array/No070</item>
+        <item>@array/No069</item>
+    </string-array>
+    <string-array name="map84">
+        <item>@array/No067</item>
+        <item>@array/No071</item>
+        <item>@array/No067</item>
+    </string-array>
+    <string-array name="map85">
+        <item>@array/No073</item>
+        <item>@array/No073</item>
+    </string-array>
+    <string-array name="map86">
+        <item>@array/No072</item>
+        <item>@array/No072</item>
+        <item>@array/No074</item>
+    </string-array>
+    <string-array name="map87">
+        <item>@array/No075</item>
+        <item>@array/No076</item>
+    </string-array>
+    <string-array name="map88">
+        <item>@array/No075</item>
+        <item>@array/No077</item>
+        <item>@array/No075</item>
+    </string-array>
+    <string-array name="map89">
+        <item>@array/No078</item>
+        <item>@array/No078</item>
+    </string-array>
+    <string-array name="map90">
+        <item>@array/No077</item>
+        <item>@array/No079</item>
+        <item>@array/No077</item>
+    </string-array>
+    <string-array name="map91">
+        <item>@array/No080</item>
+        <item>@array/No079</item>
+    </string-array>
+    <string-array name="map92">
+        <item>@array/No082</item>
+    </string-array>
+    <string-array name="map93">
+        <item>@array/No081</item>
+        <item>@array/No081</item>
+    </string-array>
+    <string-array name="map94">
+        <item>@array/No080</item>
+        <item>@array/No083</item>
+        <item>@array/No080</item>
+    </string-array>
+    <string-array name="map95">
+        <item>@array/No073</item>
+        <item>@array/No073</item>
+    </string-array>
+    <string-array name="map96">
+        <item>@array/No072</item>
+        <item>@array/No072</item>
+        <item>@array/No074</item>
+    </string-array>
+    <string-array name="map97">
+        <item>@array/No075</item>
+        <item>@array/No076</item>
+    </string-array>
+    <string-array name="map98">
+        <item>@array/No075</item>
+        <item>@array/No077</item>
+        <item>@array/No075</item>
+    </string-array>
+    <string-array name="map99">
+        <item>@array/No078</item>
+        <item>@array/No078</item>
+    </string-array>
+    <!-- アップグレード -->
+    <string-array name="appointments">
+        <item>@array/appointments_1_1</item>
+        <item>@array/appointments_1_2</item>
+        <item>@array/appointments_2_1</item>
+        <item>@array/appointments_3_1</item>
+    </string-array>
+    <string-array name="equip">
+        <item>@array/equip_1</item>
+        <item>@array/equip_2</item>
+        <item>@array/equip_3</item>
+    </string-array>
+    <string-array name="special">
+        <item>@array/special_1</item>
+        <item>@array/special_2</item>
+    </string-array>
+    <!-- スペシャル -->
+    <string-array name="special_1">
+        <item>@string/special1_name</item>
+        <item>@string/special1_context</item>
+        <item>@drawable/hit</item>
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+    </string-array>
+    <string-array name="special_2">
+        <item>@string/special2_name</item>
+        <item>@string/special2_context</item>
+        <item>@drawable/hit</item>
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+    </string-array>
+
+    <!-- 設備 -->
+    <string-array name="appointments_1_1">
+        <item>@string/appointments1_name</item>
+        <item>@string/appointments1_context</item>
+        <item>@drawable/crystal_1</item>
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+    </string-array>
+    <string-array name="appointments_1_2">
+        <item>@string/appointments1_name</item>
+        <item>@string/appointments1_context</item>
+        <item>@drawable/crystal_1</item>
+        <item>500</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+    </string-array>
+    <string-array name="appointments_2_1">
+        <item>@string/appointments2_name</item>
+        <item>@string/appointments2_context</item>
+        <item>@drawable/crystal_2</item>
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+    </string-array>
+    <string-array name="appointments_3_1">
+        <item>@string/appointments3_name</item>
+        <item>@string/appointments3_context</item>
+        <item>@drawable/crystal_3</item>
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+    </string-array>
+
+    <!-- 装備 -->
+    <string-array name="equip_1">
+        <item>@string/equip01_name</item> <!-- 名前 -->
+        <item>@string/equip01_context</item> <!-- 説明 -->
+        <item>@drawable/equip_1</item> <!-- 画像 -->
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+        <item>100</item> <!-- HPプラス -->
+        <item>3</item> <!-- 攻撃力プラス -->
+        <item>5</item> <!-- スカウトプラス -->
+        <item></item> <!-- スキル1 -->
+        <item></item> <!-- スキル1 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability01_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+    </string-array>
+    <string-array name="equip_2">
+        <item>@string/equip02_name</item> <!-- 名前 -->
+        <item>@string/equip02_context</item> <!-- 説明 -->
+        <item>@drawable/equip_2</item> <!-- 画像 -->
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+        <item>120</item> <!-- HPプラス -->
+        <item>10</item> <!-- 攻撃力プラス -->
+        <item>5</item> <!-- スカウトプラス -->
+        <item>@string/skill02_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability02_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+    </string-array>
+    <string-array name="equip_3">
+        <item>@string/equip03_name</item> <!-- 名前 -->
+        <item>@string/equip03_context</item> <!-- 説明 -->
+        <item>@drawable/equip_3</item> <!-- 画像 -->
+        <item>100</item> <!-- 価格１ -->
+        <item>0</item> <!-- 価格２ -->
+        <item>110</item> <!-- HPプラス -->
+        <item>12</item> <!-- 攻撃力プラス -->
+        <item>5</item> <!-- スカウトプラス -->
+        <item>@string/skill03_name</item> <!-- スキル1 -->
+        <item></item> <!-- スキル2 -->
+        <item></item> <!-- スキル3 -->
+        <item>@string/ability03_name</item> <!-- アビリティ1 -->
+        <item>@string/ability06_name</item> <!-- アビリティ2 -->
+        <item></item> <!-- アビリティ3 -->
+        <item></item> <!-- アビリティ4 -->
+        <item></item> <!-- アビリティ5 -->
+        <item></item> <!-- アビリティ6 -->
+    </string-array>
+
+</resources>

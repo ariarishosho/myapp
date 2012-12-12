@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/helpText"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f0ffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/upgradePlayerImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dragon" />
+
+        <ScrollView
+            android:layout_width="193dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/a_shapes" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/upgrade_Status_TitleText"
+                    style="@style/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a_shapes_2"
+                    android:text="@string/upgrade_text_1" />
+
+                <TextView
+                    android:id="@+id/upgrade_Status_ContetText1"
+                    style="@style/context"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a_shapes_3"
+                    android:text="@string/upgrade_text_2" />
+
+                <TextView
+                    android:id="@+id/upgrade_BaseSkill_TitleText"
+                    style="@style/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a_shapes_2"
+                    android:text="@string/upgrade_text_3" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a_shapes_3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/upgrade_BaseSkill_ContetText"
+                        style="@style/skill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_4"
+                        android:text="ファイヤーLv1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/upgrade_BaseAbility_TitleText"
+                    style="@style/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a_shapes_2"
+                    android:text="@string/upgrade_text_5" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a_shapes_3"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/upgrade_BaseAbility_ContetText1"
+                        style="@style/skill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_4"
+                        android:text="HPアップ" />
+
+                    <TextView
+                        android:id="@+id/upgrade_BaseAbility_ContetText2"
+                        style="@style/skill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_4"
+                        android:text="攻撃力アップ" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="193dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/a_shapes" >
+
+            <LinearLayout
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_shapes"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/upgrade_EquipName_TitleText"
+                        style="@style/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_2"
+                        android:text="@string/equip01_name" />
+
+                    <ImageView
+                        android:id="@+id/upgradeEquipImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/equip_1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/upgrade_EquipStatus_TitleText"
+                        style="@style/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_2"
+                        android:text="@string/upgrade_text_7" />
+
+                    <TextView
+                        android:id="@+id/upgrade_EquipStatus_ContetText1"
+                        style="@style/context"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_3"
+                        android:text="@string/upgrade_text_2" />
+
+                    <TextView
+                        android:id="@+id/upgrade_AddSkill_TitleText"
+                        style="@style/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_2"
+                        android:text="@string/upgrade_text_4" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_3"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/upgrade_AddSkill_ContetText1"
+                            style="@style/skill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/a_shapes_4"
+                            android:text="アイスLv1" />
+
+                        <TextView
+                            android:id="@+id/upgrade_AddSkill_ContetText2"
+                            style="@style/skill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/a_shapes_4"
+                            android:text="ウィンドLv2" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/upgrade_AddAbility_TitleText"
+                        style="@style/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_2"
+                        android:text="@string/upgrade_text_6" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a_shapes_3"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/upgrade_AddAbility_ContetText1"
+                            style="@style/skill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/a_shapes_4"
+                            android:text="ノックバック攻撃Lv1" />
+
+                        <TextView
+                            android:id="@+id/upgrade_AddAbility_ContetText2"
+                            style="@style/skill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/a_shapes_4"
+                            android:text="炎耐性Lv1" />
+
+                        <TextView
+                            android:id="@+id/upgrade_AddAbility_ContetText3"
+                            style="@style/skill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/a_shapes_4"
+                            android:text="地耐性Lv1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/upgradeReturnImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:src="@drawable/back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a_shapes"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.74"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.74"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/upgradePriceText"
+                    style="@style/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a_shapes_2"
+                    android:text="@string/equip02_name" />
+
+                <TextView
+                    android:id="@+id/upgradeTitleText"
+                    style="@style/context"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|left"
+                    android:background="@drawable/a_shapes_3"
+                    android:text="@string/equip02_context" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/upgradeImageMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:src="@drawable/money" />
+
+            <TextView
+                android:id="@+id/upgradeContetText"
+                style="@style/context"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.13"
+                android:background="@drawable/a_shapes_3"
+                android:text="1000" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/upgradeImageButtonArrowBack"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:src="@drawable/arrowback" />
+
+        <TextView
+            android:id="@+id/upgradeTextShelf"
+            style="@style/title"
+            android:layout_width="59dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/a_shapes_2"
+            android:gravity="center"
+            android:text="@string/shelf01_name" />
+
+        <ImageButton
+            android:id="@+id/upgradeImageButtonArrowFront"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:src="@drawable/arrowfront" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <GridView
+            android:id="@+id/upgradeGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/a_shapes"
+            android:horizontalSpacing="10dp"
+            android:numColumns="4"
+            android:verticalSpacing="10dp" >
+        </GridView>
+    </LinearLayout>
+
+</LinearLayout>

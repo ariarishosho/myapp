@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/helpText"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f0ffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/helpReturnImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/back" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/a_shapes_3" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/helpBattleTitleText"
+                style="@style/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_shapes_2"
+                android:text="@string/battle" />
+
+            <ImageView
+                android:id="@+id/helpBattleImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="304dp"
+                android:src="@drawable/helpbattle"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/heilpBattleText"
+                style="@style/context"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/helpBattleText" />
+
+            <TextView
+                android:id="@+id/helpNegoTitleTText"
+                style="@style/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_shapes_2"
+                android:text="@string/nego" />
+
+            <ImageView
+                android:id="@+id/helpNegoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/helpnego" />
+
+            <TextView
+                android:id="@+id/helpNegoText"
+                style="@style/context"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/helpNegoText" />
+
+            <TextView
+                android:id="@+id/helpPastureTitleText"
+                style="@style/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_shapes_2"
+                android:text="@string/pasture" />
+
+            <ImageView
+                android:id="@+id/helpPastureImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/helphome" />
+
+            <TextView
+                android:id="@+id/helpPastureText"
+                style="@style/context"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/helpHomeText" />
+
+            <TextView
+                android:id="@+id/helpCombineTitleText"
+                style="@style/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_shapes_2"
+                android:text="@string/Combine" />
+
+            <ImageView
+                android:id="@+id/helpCombineImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/helpcombine" />
+
+            <TextView
+                android:id="@+id/helpCombineText"
+                style="@style/context"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/helpCombineText" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
